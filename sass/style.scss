@@ -1,5 +1,4 @@
-@import "fonts";
-
+@import "typography";
 // You can modify the theme directly, or override some of the variables
 // Overrides just need placed prior to the theme import
 // For example:
@@ -7,7 +6,6 @@
 @import "theme";
 @import "reset";
 @import "logomark";
-@import "typography";
 @import "layout";
 @import "header";
 @import "nav";
