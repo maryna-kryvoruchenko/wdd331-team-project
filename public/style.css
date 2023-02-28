@@ -1,4 +1,12 @@
-@import url("");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Permanent+Marker&display=swap");
+h1, h2, h3, h4 {
+  font-family: "Permanent Marker", cursive;
+}
+
+p, li, a {
+  font-family: "Nunito", sans-serif;
+}
+
 :root {
   --color-primary: #3a00ff;
   --color-primary-alt: #6f6ffd;
