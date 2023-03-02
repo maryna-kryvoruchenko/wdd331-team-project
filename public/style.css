@@ -8,13 +8,13 @@ p, li, a {
 }
 
 :root {
-  --color-primary: #3a00ff;
-  --color-primary-alt: #6f6ffd;
-  --color-secondary: #d42257;
-  --color-background: #d2fbf7;
-  --color-text: #412d86;
+  --color-primary: #151614;
+  --color-primary-alt: #F8F8F8;
+  --color-secondary: #d0d2d2;
+  --color-background: #bd1515;
+  --color-text: #0f0f0e;
   --color-light: #fff;
-  --color-anchor: #3a00ff;
+  --color-anchor: #151614;
   --font-family: "Baloo 2", sans-serif;
   --font-weight-strong: 500;
   --font-size-h1: 6rem;
@@ -83,6 +83,96 @@ select {
     scroll-behavior: auto !important;
   }
 }
+:root {
+  --color-primary: #151614;
+  --color-primary-alt: #F8F8F8;
+  --color-secondary: #d0d2d2;
+  --color-background: #bd1515;
+  --color-text: #0f0f0e;
+  --color-light: #fff;
+  --color-anchor: #151614;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
+#about .container:nth-child(1) {
+  background-image: url("../images/header-web.svg");
+  margin: 10px 40px 50px 40px;
+  padding: 20px 10px;
+  background-color: #151614;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+#about .container:nth-child(1) h2 {
+  background-color: #bd1515;
+  color: #F8F8F8;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  padding: 0.25em;
+  border-radius: 10px;
+}
+#about .container:nth-child(1) p {
+  color: white;
+  padding: 5px 20px;
+}
+
+#about .container:nth-child(2) {
+  background-image: url("../images/header-web.svg");
+  margin: 10px 40px 50px 40px;
+  padding: 20px 10px;
+  background-color: #d0d2d2;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+#about .container:nth-child(2) h2 {
+  background-color: #bd1515;
+  color: #F8F8F8;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  padding: 0.25em;
+  border-radius: 10px;
+}
+#about .container:nth-child(2) p {
+  padding: 5px 20px;
+}
+#about .container:nth-child(2) p:nth-of-type(2) {
+  text-align: center;
+  font-size: 1.4em;
+}
+#about .container:nth-child(2) ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px 20px;
+}
+#about .container:nth-child(2) li {
+  padding: 10px;
+  margin: 3px 7px;
+  border: 1px solid #bd1515;
+  border-radius: 10px;
+  animation: breathe 2s infinite;
+}
+@keyframes breathe {
+  50% {
+    transform: scaleX(105%);
+  }
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+p {
+  font-size: 1.15rem;
+}
+
 html > body > footer > div > p > a {
   color: black;
 }
