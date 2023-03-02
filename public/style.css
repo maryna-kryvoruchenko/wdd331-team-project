@@ -83,3 +83,24 @@ select {
     scroll-behavior: auto !important;
   }
 }
+html > body > footer > div > p > a {
+  color: black;
+}
+
+html > body > footer > div > ul > li > a > svg {
+  width: 13px;
+}
+
+html > body > footer > div > ul > li > a {
+  text-decoration: none;
+}
+
+html > body > footer > div > ul > li {
+  list-style: none;
+  width: auto;
+  margin: auto;
+}
+
+html > body > footer > div > ul {
+  display: flex;
+}
