@@ -11,6 +11,7 @@ p, li, a {
   --color-primary: #151614;
   --color-primary-alt: #F8F8F8;
   --color-secondary: #909897;
+  --color-secondary: #d0d2d2;
   --color-background: #bd1515;
   --color-text: #0f0f0e;
   --color-light: #fff;
@@ -84,10 +85,10 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
 .container .link-github span svg {
   width: 13px;
 }
+
 :root {
   --color-primary: #151614;
   --color-primary-alt: #F8F8F8;
@@ -96,7 +97,6 @@ select {
   --color-text: #0f0f0e;
   --color-light: #fff;
   --color-anchor: #151614;
-
   --font-family: "Baloo 2", sans-serif;
   --font-weight-strong: 500;
   --font-size-h1: 6rem;
@@ -106,6 +106,7 @@ select {
   --font-size-text: 1.15rem;
   --border-radius: 8px;
 }
+
 header .container h1, header .container h2 {
   text-align: center;
 }
@@ -156,6 +157,25 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   margin: 5px;
+}
+
+:root {
+  --color-primary: #151614;
+  --color-primary-alt: #F8F8F8;
+  --color-secondary: #d0d2d2;
+  --color-background: #bd1515;
+  --color-text: #0f0f0e;
+  --color-light: #fff;
+  --color-anchor: #151614;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
 
 #about .container:nth-child(1) {
   margin: 10px 40px 50px 40px;
@@ -247,5 +267,4 @@ html > body > footer > div > ul > li {
 
 html > body > footer > div > ul {
   display: flex;
-
 }
