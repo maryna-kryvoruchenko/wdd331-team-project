@@ -84,6 +84,10 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+.container .link-github span svg {
+  width: 13px;
+}
 :root {
   --color-primary: #151614;
   --color-primary-alt: #F8F8F8;
@@ -92,6 +96,7 @@ select {
   --color-text: #0f0f0e;
   --color-light: #fff;
   --color-anchor: #151614;
+
   --font-family: "Baloo 2", sans-serif;
   --font-weight-strong: 500;
   --font-size-h1: 6rem;
@@ -101,6 +106,56 @@ select {
   --font-size-text: 1.15rem;
   --border-radius: 8px;
 }
+header .container h1, header .container h2 {
+  text-align: center;
+}
+header .container h1 {
+  padding-top: 100px;
+}
+header .container h2 {
+  font-size: 0.78em;
+  float: right;
+  margin-right: 10px;
+}
+header .container .link-github {
+  text-decoration: none;
+  float: right;
+  font-size: 0.78em;
+}
+header .container p {
+  font-size: 0.78em;
+  float: right;
+  margin-right: 10px;
+}
+header .container p a {
+  text-decoration: none;
+}
+
+header {
+  background-image: url("/images/header-web.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skip-link {
+  text-decoration: none;
+}
+
+.skip-link:before {
+  content: url("/images/logo.svg");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding-top: 100px;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 5px;
 
 #about .container:nth-child(1) {
   margin: 10px 40px 50px 40px;
@@ -192,4 +247,5 @@ html > body > footer > div > ul > li {
 
 html > body > footer > div > ul {
   display: flex;
+
 }
