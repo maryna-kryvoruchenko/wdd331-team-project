@@ -8,13 +8,13 @@ p, li, a {
 }
 
 :root {
-  --color-primary: #3a00ff;
-  --color-primary-alt: #6f6ffd;
-  --color-secondary: #d42257;
-  --color-background: #d2fbf7;
-  --color-text: #412d86;
+  --color-primary: #151614;
+  --color-primary-alt: #F8F8F8;
+  --color-secondary: #909897;
+  --color-background: #bd1515;
+  --color-text: #0f0f0e;
   --color-light: #fff;
-  --color-anchor: #3a00ff;
+  --color-anchor: #151614;
   --font-family: "Baloo 2", sans-serif;
   --font-weight-strong: 500;
   --font-size-h1: 6rem;
