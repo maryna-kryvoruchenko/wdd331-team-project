@@ -1,0 +1,48 @@
+@import "theme";
+
+header .container {
+    h1, h2 {
+        text-align: center;
+    }
+    h1 {
+        padding-top: 100px;
+    }
+    h2 {
+        font-size: 0.78em;
+        float: right;
+        margin-right: 10px;
+    }
+    .link-github {
+        text-decoration: none;
+        float: right;
+        font-size: 0.78em;
+    }
+    p {
+        font-size: 0.78em;
+        float: right;
+        margin-right: 10px;  
+    }
+
+    p a {
+        text-decoration: none;
+    }
+}
+
+header {
+    background-image: url('/images/header-web.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skip-link {
+    text-decoration: none;
+}
+
+.skip-link:before {
+    content: url('/images/logo.svg');
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+
