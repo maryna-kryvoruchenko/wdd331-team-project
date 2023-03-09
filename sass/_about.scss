@@ -10,7 +10,7 @@
         // display: inline;
         color: $color-primary-alt;
         text-align: center;
-        width: 400px;
+        width: 200px;
         margin:auto;
         padding: .25em;
         border-radius: 10px;
@@ -19,6 +19,9 @@
         color: white;
         padding: 5px 20px;
     }  
+    a{
+        color: inherit;
+    }
 }
 #about .container:nth-child(2){
     // background-image: url('../images/header-web.svg');
@@ -31,13 +34,16 @@
         // display: inline;
         color: $color-primary-alt;
         text-align: center;
-        width: 400px;
+        width: 200px;
         margin:auto;
         padding: .25em;
         border-radius: 10px;
     }
     p{
         padding: 5px 20px;
+    }
+    a{
+        color: inherit;
     }
     p:nth-of-type(2){
         text-align: center;
