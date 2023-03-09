@@ -10,12 +10,10 @@ p, li, a {
 :root {
   --color-primary: #151614;
   --color-primary-alt: #F8F8F8;
-  --color-secondary: #909897;
   --color-secondary: #d0d2d2;
   --color-background: #bd1515;
   --color-text: #0f0f0e;
   --color-light: #fff;
-  --color-anchor: #151614;
   --color-anchor: #151614;
   --font-family: "Baloo 2", sans-serif;
   --font-weight-strong: 500;
@@ -187,7 +185,7 @@ nav ul li a {
   background-color: #bd1515;
   color: #F8F8F8;
   text-align: center;
-  width: 400px;
+  width: 200px;
   margin: auto;
   padding: 0.25em;
   border-radius: 10px;
@@ -195,6 +193,9 @@ nav ul li a {
 #about .container:nth-child(1) p {
   color: white;
   padding: 5px 20px;
+}
+#about .container:nth-child(1) a {
+  color: inherit;
 }
 
 #about .container:nth-child(2) {
@@ -207,13 +208,16 @@ nav ul li a {
   background-color: #bd1515;
   color: #F8F8F8;
   text-align: center;
-  width: 400px;
+  width: 200px;
   margin: auto;
   padding: 0.25em;
   border-radius: 10px;
 }
 #about .container:nth-child(2) p {
   padding: 5px 20px;
+}
+#about .container:nth-child(2) a {
+  color: inherit;
 }
 #about .container:nth-child(2) p:nth-of-type(2) {
   text-align: center;
@@ -240,7 +244,7 @@ nav ul li a {
 }
 
 h2 {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1.5rem, 4vw, 3rem);
 }
 
 p {
