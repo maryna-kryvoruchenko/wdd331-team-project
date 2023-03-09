@@ -201,7 +201,7 @@ nav ul li a {
 #about .container:nth-child(2) {
   margin: 10px 40px 50px 40px;
   padding: 20px 10px;
-  background-color: #d0d2d2;
+  background-color: #151614;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
 #about .container:nth-child(2) h2 {
@@ -215,6 +215,7 @@ nav ul li a {
 }
 #about .container:nth-child(2) p {
   padding: 5px 20px;
+  color: white;
 }
 #about .container:nth-child(2) a {
   color: inherit;
@@ -231,6 +232,7 @@ nav ul li a {
   padding: 5px 20px;
 }
 #about .container:nth-child(2) li {
+  color: white;
   padding: 10px;
   margin: 3px 7px;
   border: 1px solid #bd1515;
