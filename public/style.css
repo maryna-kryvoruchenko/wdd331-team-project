@@ -10,11 +10,10 @@ p, li, a {
 :root {
   --color-primary: #151614;
   --color-primary-alt: #F8F8F8;
-  --color-secondary: #909897;
+  --color-secondary: #d0d2d2;
   --color-background: #bd1515;
   --color-text: #0f0f0e;
   --color-light: #fff;
-  --color-anchor: #151614;
   --color-anchor: #151614;
   --font-family: "Baloo 2", sans-serif;
   --font-weight-strong: 500;
