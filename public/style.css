@@ -295,6 +295,90 @@ nav ul li a {
   color: inherit;
 }
 
+:root {
+  --color-primary: #151614;
+  --color-primary-alt: #F8F8F8;
+  --color-secondary: #d0d2d2;
+  --color-background: #bd1515;
+  --color-text: #0f0f0e;
+  --color-light: #fff;
+  --color-anchor: #151614;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
+#contribute section.container {
+  margin: 10px 40px 50px 40px;
+  padding: 20px 10px;
+  background-color: #151614;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+#contribute section.container h2, #contribute section.container h3 {
+  background-color: #bd1515;
+  color: #F8F8F8;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  padding: 0.25em;
+  border-radius: 10px;
+}
+#contribute section.container h3 {
+  background-color: #d0d2d2;
+  color: #151614;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  padding: 0.25em;
+  border-radius: 10px;
+}
+#contribute section.container p {
+  color: white;
+  padding: 5px 20px;
+}
+#contribute section.container a {
+  color: inherit;
+}
+#contribute section.container li {
+  color: white;
+  list-style: none;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+#contribute section.container li:nth-child(1):before {
+  content: "01.";
+  font-family: "Permanent Marker", cursive;
+  margin-left: -1.6em;
+  font-size: 2em;
+  padding: 3px;
+}
+#contribute section.container li:nth-child(2):before {
+  content: "02.";
+  font-family: "Permanent Marker", cursive;
+  margin-left: -1.9em;
+  font-size: 2em;
+  padding: 3px;
+}
+#contribute section.container li:nth-child(3):before {
+  content: "03.";
+  font-family: "Permanent Marker", cursive;
+  margin-left: -1.8em;
+  font-size: 2em;
+  padding: 3px;
+}
+#contribute section.container li:nth-child(4):before {
+  content: "04.";
+  font-family: "Permanent Marker", cursive;
+  margin-left: -1.8em;
+  font-size: 2em;
+  padding: 3px;
+}
+
 h2 {
   font-size: clamp(1.5rem, 4vw, 3rem);
 }
