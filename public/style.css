@@ -10,12 +10,10 @@ p, li, a {
 :root {
   --color-primary: #151614;
   --color-primary-alt: #F8F8F8;
-  --color-secondary: #909897;
   --color-secondary: #d0d2d2;
   --color-background: #bd1515;
   --color-text: #0f0f0e;
   --color-light: #fff;
-  --color-anchor: #151614;
   --color-anchor: #151614;
   --font-family: "Baloo 2", sans-serif;
   --font-weight-strong: 500;
@@ -149,14 +147,49 @@ header {
   height: 20px;
 }
 
+:root {
+  --color-primary: #151614;
+  --color-primary-alt: #F8F8F8;
+  --color-secondary: #d0d2d2;
+  --color-background: #bd1515;
+  --color-text: #0f0f0e;
+  --color-light: #fff;
+  --color-anchor: #151614;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
 nav ul {
   list-style: none;
   display: flex;
+  flex-direction: column;
   padding-top: 100px;
+  padding-left: 0;
+  margin: 0 auto;
+}
+nav ul li {
+  transition: transform 1s ease-out;
+  width: 100vw;
+  text-align: center;
+}
+nav ul li:hover {
+  background-color: #bd1515;
+  border-radius: 10px;
 }
 nav ul li a {
   text-decoration: none;
-  margin: 5px;
+  padding: 1em;
+  font-size: 0.9em;
+  color: black;
+}
+nav ul li a:hover {
+  color: #d0d2d2;
 }
 
 :root {
