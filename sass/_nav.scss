@@ -1,9 +1,32 @@
+@import "theme";
+
 nav ul {
     list-style: none;
     display: flex;
+    flex-direction: column;
     padding-top: 100px;
+    padding-left: 0;
+    margin: 0 auto;
+    li {
+        transition: transform 1s ease-out;
+        width: 100vw;
+        text-align: center;
+    }
+    li:hover {
+        // transform: translateY(20px);
+        background-color: $color-background;
+        border-radius: 10px;
+    }
     li a {
         text-decoration: none;
-        margin: 5px;
+        padding: 1em;
+        // width: fit-content;
+        font-size: 0.9em;
+        color: black;
     }
+
+    li a:hover {
+        color: $color-secondary;    
+    }
+
 }
