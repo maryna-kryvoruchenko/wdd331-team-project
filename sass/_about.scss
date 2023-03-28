@@ -10,8 +10,9 @@
         // display: inline;
         color: $color-primary-alt;
         text-align: center;
-        width: 200px;
+        width: clamp(200px 200px 600px);
         margin:auto;
+        margin: 10px 50px;
         padding: .25em;
         border-radius: 10px;
     }
@@ -34,8 +35,9 @@
         // display: inline;
         color: $color-primary-alt;
         text-align: center;
-        width: 200px;
+        width: clamp(200px 200px 600px);
         margin:auto;
+        margin: 10px 50px;
         padding: .25em;
         border-radius: 10px;
     }
