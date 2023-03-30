@@ -1,0 +1,31 @@
+@import "theme";
+aside.profile{
+    border: 2px solid black;
+    margin: 2em;
+    padding: 1em;
+    text-align: center;
+    @include breakpoint(large) {
+        width: 90%;}
+    ul{
+        text-align: left;
+        list-style: none;
+        li{
+            margin: 1em 0rem;
+        }
+    }
+    a{
+        color: $color-background;
+        font-weight:bolder;
+        padding: 0.2rem;
+    }
+    a:nth-child(3){
+        background-color: $color-background;
+        color: white;
+        border-radius: 10px;
+        padding: 0.5rem;
+    }
+    a:nth-child(3):hover{
+        background-color: black;
+        transition: 1s;
+    }
+}
