@@ -1,0 +1,48 @@
+@import'theme.scss';
+#guidelines .container{
+    margin: 10px 40px 50px 40px;
+    padding: 20px 10px;
+    background-color: $color-primary;  
+    box-shadow: 0 6px 12px rgb(0 0 0 / 50%);
+    @include breakpoint(large) {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        margin: 5em 10em;}
+    h2{
+        @include breakpoint(large) { grid-column: 1/3;}
+    }
+    h2, h3{
+        background-color: $color-background;
+        // display: inline;
+        color: $color-primary-alt;
+        text-align: center;
+        width: clamp(200px 200px 600px);
+        margin:auto;
+        margin: 10px 50px;
+        padding: .25em;
+        border-radius: 10px;
+    }
+    h3{
+        background-color: $color-secondary;
+        // display: inline;
+        color: $color-primary;
+        text-align: center;
+        width: 200px;
+        margin:auto;
+        padding: .25em;
+        border-radius: 10px;
+    }
+    p{
+        color: white;
+        padding: 5px 20px;
+    }  
+    a{
+        color: white;
+    }
+    a.link-guidelines{
+        padding: 5px 20px;
+        margin: auto;
+        background-color:$color-background;
+        border-radius: 10px;
+    }
+}

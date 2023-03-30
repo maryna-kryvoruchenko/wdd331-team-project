@@ -3,4 +3,14 @@ h2{
 }
 p{
     font-size: 1.15rem;
+    max-inline-size: 60ch;
+    line-height: 1.15em;
+}
+main{
+    background-image: url('../images/body-web.svg');
+    min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }

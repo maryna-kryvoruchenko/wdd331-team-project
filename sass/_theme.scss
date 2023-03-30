@@ -2,6 +2,7 @@ $color-primary: #151614 !default;
 $color-primary-alt: #F8F8F8 !default;
 $color-secondary: #d0d2d2 !default;
 $color-background: #bd1515 !default;
+$break-large: 800px;
 
 $brand-colors: (
   primary: $color-primary,
@@ -24,7 +25,11 @@ $colors: map-merge(
     light: #fff,
   )
 );
-
+@mixin breakpoint($break) {
+  @if $break == large {
+  @media (min-width: $break-large) { @content; }
+  }
+}
 @function color($key) {
   @return map-get($colors, $key);
 }
