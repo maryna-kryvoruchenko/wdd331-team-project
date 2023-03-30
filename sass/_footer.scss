@@ -1,5 +1,12 @@
+html > body > footer{
+    background-color: rgb(0,0,0,0.75);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px, 10px, 0px, 0px;
+    padding: 5px;
+}
 html> body> footer > div > p > a {
-    color: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
 }
 html> body> footer > div > ul > li > a > svg {
 width:13px;
@@ -7,14 +14,22 @@ width:13px;
 
 html> body> footer > div > ul > li > a{
     text-decoration: none;
+    color: white;
 }
 
 html> body> footer > div > ul > li {
     list-style: none;
     width: auto;
-    margin: auto;
+    margin: 0 auto;
 }
 
+
 html> body> footer > div > ul {
-display: flex;
+display:flex;
+background-color: rgb(255, 0, 0, 0.25);
+border-radius: 10px;
+padding: 10px;
+width: 100%;
 }
+
+
