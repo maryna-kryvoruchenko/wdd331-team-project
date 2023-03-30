@@ -87,6 +87,24 @@ select {
   width: 13px;
 }
 
+:root {
+  --color-primary: #151614;
+  --color-primary-alt: #F8F8F8;
+  --color-secondary: #d0d2d2;
+  --color-background: #bd1515;
+  --color-text: #0f0f0e;
+  --color-light: #fff;
+  --color-anchor: #151614;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
 @media (min-width: 800px) {
   body {
     display: grid;
@@ -528,7 +546,7 @@ h2, h4 {
   font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
-p {
+#main p {
   font-size: 1.15rem;
   max-inline-size: 60ch;
   line-height: 1.15em;
