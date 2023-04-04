@@ -14,7 +14,7 @@
         // display: inline;
         color: $color-primary-alt;
         text-align: center;
-        width: clamp(200px 200px 600px);
+        // width: 100%;
         margin:auto;
         margin: 10px 50px;
         padding: .25em;
@@ -51,7 +51,7 @@
         // display: inline;
         color: $color-primary-alt;
         text-align: center;
-        width: clamp(200px 200px 600px);
+        // width: 100%;
         margin:auto;
         margin: 10px 50px;
         padding: .25em;
@@ -91,7 +91,7 @@
             // transform: translateY(0);
         }
         50% {
-            transform:scaleX(105%)
+            transform:scaleX(1.05)
         }
     }
 
