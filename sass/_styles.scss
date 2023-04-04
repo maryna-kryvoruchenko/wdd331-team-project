@@ -1,14 +1,17 @@
-h2{
+h2, h4{
     font-size: clamp(1.5rem, 4vw, 3rem);
+    font-size: clamp(1.5rem, 4vw, 2rem);
 }
-p{
+#main p{
     font-size: 1.15rem;
+    max-inline-size: 60ch;
+    line-height: 1.15em;
 }
 main{
     background-image: url('../images/body-web.svg');
     min-height: 100vh;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
