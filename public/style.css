@@ -143,10 +143,6 @@ select {
   --border-radius: 8px;
 }
 
-header .container h1, header .container h2 {
-  text-align: center;
-}
-
 header .container h1 {
   text-align: center;
   padding-top: 100px;
@@ -211,6 +207,11 @@ header {
   header .container h1 {
     text-align: right;
     padding-right: 25%;
+  }
+}
+@media only screen and (min-width: 800px) {
+  body nav ul li {
+    width: 15vw;
   }
 }
 :root {
@@ -662,6 +663,64 @@ html > body > footer > div > ul > li:hover {
   --border-radius: 8px;
 }
 
+#files {
+  background-color: #d0d2d2;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+#files .container {
+  width: 90%;
+  margin: 0 auto;
+}
+#files .container h3 {
+  text-align: center;
+  font-size: 1.17em;
+}
+#files .container a {
+  padding: 3px;
+  text-decoration: none;
+  color: #151614;
+}
+#files .container a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 650px) {
+  #files .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #files .container a {
+    padding-left: 50px;
+  }
+}
+@media only screen and (min-width: 650px) {
+  #files .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #files .container a {
+    padding-left: 80px;
+  }
+}
+:root {
+  --color-primary: #151614;
+  --color-primary-alt: #F8F8F8;
+  --color-secondary: #d0d2d2;
+  --color-background: #bd1515;
+  --color-text: #0f0f0e;
+  --color-light: #fff;
+  --color-anchor: #151614;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
 #styles {
   border: 2px solid black;
   margin: 2em;
@@ -746,63 +805,4 @@ aside.profile a:nth-child(3) {
 aside.profile a:nth-child(3):hover {
   background-color: black;
   transition: 1s;
-}
-
-:root {
-  --color-primary: #151614;
-  --color-primary-alt: #F8F8F8;
-  --color-secondary: #d0d2d2;
-  --color-background: #bd1515;
-  --color-text: #0f0f0e;
-  --color-light: #fff;
-  --color-anchor: #151614;
-  --font-family: "Baloo 2", sans-serif;
-  --font-weight-strong: 500;
-  --font-size-h1: 6rem;
-  --font-size-h2: 3rem;
-  --font-size-h3: 2rem;
-  --font-size-h4: 1.35rem;
-  --font-size-text: 1.15rem;
-  --border-radius: 8px;
-}
-
-#files {
-  background-color: #d0d2d2;
-  padding-bottom: 15px;
-  padding-top: 15px;
-}
-#files .container {
-  width: 90%;
-  margin: 0 auto;
-}
-#files .container h3 {
-  text-align: center;
-  font-size: 1.17em;
-}
-#files .container a {
-  padding: 3px;
-  text-decoration: none;
-  color: #151614;
-}
-#files .container a:hover {
-  text-decoration: underline;
-}
-
-@media only screen and (min-width: 650px) {
-  #files .container {
-    width: 90%;
-    margin: 0 auto;
-  }
-  #files .container a {
-    padding-left: 50px;
-  }
-}
-@media only screen and (min-width: 650px) {
-  #files .container {
-    width: 90%;
-    margin: 0 auto;
-  }
-  #files .container a {
-    padding-left: 80px;
-  }
 }
