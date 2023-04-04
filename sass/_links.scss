@@ -1,0 +1,49 @@
+@import "theme";
+
+#files {
+    background-color: $color-secondary;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container h3 {
+        text-align: center;
+        font-size: 1.17em;
+    }
+    .container a {
+        padding: 3px;
+        text-decoration: none;
+        color: $color-primary;
+    }
+    .container a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    #files {
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .container a {
+            padding-left: 50px;
+        }
+    }
+  }
+
+  @media only screen and (min-width: 650px) {
+    #files {
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .container a {
+            padding-left: 80px;
+        }
+    }
+  }
+
+  //:not(:first-child)

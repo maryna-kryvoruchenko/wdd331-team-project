@@ -4,7 +4,7 @@ nav ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-left: 0;
     margin: 0 auto;
     li {
@@ -21,7 +21,7 @@ nav ul {
         text-decoration: none;
         padding: 1em;
         // width: fit-content;
-        font-size: 0.9em;
+        font-size: 1em;
         color: black;
     }
 
@@ -30,3 +30,11 @@ nav ul {
     }
 
 }
+
+@media only screen and (min-width: 650px) {
+    nav ul {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+  }

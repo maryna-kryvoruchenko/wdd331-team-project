@@ -105,10 +105,8 @@ select {
   --border-radius: 8px;
 }
 
-header .container h1, header .container h2 {
-  text-align: center;
-}
 header .container h1 {
+  text-align: center;
   padding-top: 100px;
 }
 header .container h2 {
@@ -128,6 +126,7 @@ header .container p {
 }
 header .container p a {
   text-decoration: none;
+  color: #bd1515;
 }
 
 header {
@@ -138,6 +137,8 @@ header {
 
 .skip-link {
   text-decoration: none;
+  color: #151614;
+  font-size: 0.85em;
 }
 
 .skip-link:before {
@@ -147,6 +148,29 @@ header {
   height: 20px;
 }
 
+@media only screen and (min-width: 650px) {
+  header .container {
+    display: grid;
+  }
+  header .container h1 {
+    padding-top: 120px;
+  }
+  header .container h2, header .container p, header .container a.link-github {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-width: 750px) {
+  header .container {
+    display: grid;
+  }
+  header .container h1 {
+    text-align: right;
+    padding-right: 25%;
+  }
+}
 :root {
   --color-primary: #151614;
   --color-primary-alt: #F8F8F8;
@@ -169,7 +193,7 @@ nav ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 70px;
   padding-left: 0;
   margin: 0 auto;
 }
@@ -185,13 +209,20 @@ nav ul li:hover {
 nav ul li a {
   text-decoration: none;
   padding: 1em;
-  font-size: 0.9em;
+  font-size: 1em;
   color: black;
 }
 nav ul li a:hover {
   color: #d0d2d2;
 }
 
+@media only screen and (min-width: 650px) {
+  nav ul {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+}
 :root {
   --color-primary: #151614;
   --color-primary-alt: #F8F8F8;
@@ -451,4 +482,63 @@ html > body > footer > div > ul > li {
 
 html > body > footer > div > ul {
   display: flex;
+}
+
+:root {
+  --color-primary: #151614;
+  --color-primary-alt: #F8F8F8;
+  --color-secondary: #d0d2d2;
+  --color-background: #bd1515;
+  --color-text: #0f0f0e;
+  --color-light: #fff;
+  --color-anchor: #151614;
+  --font-family: "Baloo 2", sans-serif;
+  --font-weight-strong: 500;
+  --font-size-h1: 6rem;
+  --font-size-h2: 3rem;
+  --font-size-h3: 2rem;
+  --font-size-h4: 1.35rem;
+  --font-size-text: 1.15rem;
+  --border-radius: 8px;
+}
+
+#files {
+  background-color: #d0d2d2;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+#files .container {
+  width: 90%;
+  margin: 0 auto;
+}
+#files .container h3 {
+  text-align: center;
+  font-size: 1.17em;
+}
+#files .container a {
+  padding: 3px;
+  text-decoration: none;
+  color: #151614;
+}
+#files .container a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 650px) {
+  #files .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #files .container a {
+    padding-left: 50px;
+  }
+}
+@media only screen and (min-width: 650px) {
+  #files .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #files .container a {
+    padding-left: 80px;
+  }
 }
