@@ -557,8 +557,16 @@ main {
   background-position: center center;
 }
 
+html > body > footer {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px, 10px, 0px, 0px;
+  padding: 5px;
+}
+
 html > body > footer > div > p > a {
-  color: black;
+  color: #fcfcfc;
 }
 
 html > body > footer > div > ul > li > a > svg {
@@ -567,18 +575,40 @@ html > body > footer > div > ul > li > a > svg {
 
 html > body > footer > div > ul > li > a {
   text-decoration: none;
+  color: white;
 }
 
 html > body > footer > div > ul > li {
   list-style: none;
   width: auto;
-  margin: auto;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
 }
 
 html > body > footer > div > ul {
-  display: flex;
+  display: block;
+  background-color: rgba(255, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 100%;
+  justify-content: center;
+  padding: 0;
 }
 
+html > body > footer > div > ul > li:hover {
+  background-color: #f06a6a;
+  border-radius: 10px;
+}
+
+@media (min-width: 600px) {
+  html > body > footer > div > ul {
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+}
 :root {
   --color-primary: #151614;
   --color-primary-alt: #F8F8F8;
